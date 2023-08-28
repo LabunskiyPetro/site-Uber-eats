@@ -110,11 +110,16 @@ h3{
 /* content */
 .content-box{
     display: flex;
-    justify-content: center;
+    justify-content: start;
     flex-wrap: wrap;
     gap: 16px;
 
     margin-bottom: 80px;
+}
+
+figure img{
+    width: 308px;
+    height: 256px;
 }
 
 figcaption{
@@ -151,10 +156,8 @@ footer{
     display: flex;
     gap: 16px;
 
-
-
     padding-top: 32px;
-    padding-bottom: 32px;
+    padding-bottom: 25px;
 }
 
 .footer_info_box{
@@ -225,9 +228,59 @@ option{
 }
 
 .legal_information_text{
-    width: 308px;
+    width: 33%;
 
     font-size: 0.6875rem;
     line-height: 12.89px;            /* $$$ */
     color: white;
+}
+
+@media screen  and (max-width: 956px) { 
+    .container_main{
+        max-width: 752px;
+    }
+    
+    figure img{
+        width: 368px;
+    }
+
+    .content-box{
+        margin-bottom: 48px;
+    }
+}
+
+@media screen and (max-width: 767px) { 
+    .container_main{
+        max-width: 308px;
+    }
+    
+    figure img{
+        width: 308px;
+    }
+
+    .basket, figure:nth-child(n + 5){
+        display: none;
+    }
+
+    .contact{
+        margin-bottom: 39px;
+    }
+
+    .footer_info{
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .applications{
+        gap: 24px;
+    }
+
+    .legal_information{
+        flex-direction: column;
+        gap: 24px;
+    }
+    
+    .legal_information_text{
+        width: 100%;
+    }
 }
