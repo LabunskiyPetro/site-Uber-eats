@@ -110,6 +110,10 @@ input:focus{
     opacity: 100%;
 }
 
+input:focus::placeholder{
+    color: #62626275;
+}
+
 /* title */
 h3{
     font-size: 1.375rem;
