@@ -101,11 +101,13 @@ input{
 }
 
 input:focus{
-    color: #1D1D1D;
+    color:1D1D1D;
+    
+    border-color: #75757550;
+
+    outline: 0;
 
     opacity: 100%;
-    
-    outline: 0;
 }
 
 /* title */
