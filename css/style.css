@@ -99,6 +99,7 @@ input{
 }
 
 input:focus{
+    color: #1D1D1D;
     outline: 0;
 }
 
