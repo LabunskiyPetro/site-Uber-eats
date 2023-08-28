@@ -101,9 +101,9 @@ input{
 }
 
 input:focus{
-    color:1D1D1D;
+    color:#1D1D1D;
     
-    border-color: #75757550;
+    border-color: #75757582;
 
     outline: 0;
 
