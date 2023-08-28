@@ -102,6 +102,9 @@ input{
 
 input:focus{
     color: #1D1D1D;
+
+    opacity: 100%;
+    
     outline: 0;
 }
 
@@ -127,6 +130,10 @@ h3{
 figure img{
     width: 308px;
     height: 256px;
+}
+
+figure a, figure a:hover{
+    color: inherit;
 }
 
 figcaption{
