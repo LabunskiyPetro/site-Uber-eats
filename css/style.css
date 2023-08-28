@@ -98,6 +98,10 @@ input{
     opacity: 50%;
 }
 
+input:focus{
+    outline: 0;
+}
+
 /* title */
 h3{
     font-size: 1.375rem;
